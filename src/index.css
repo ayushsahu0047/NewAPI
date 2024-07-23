@@ -1,0 +1,62 @@
+.image{
+  height: 500px;
+  width: 500px;
+   display: flex;
+   margin-left: 20rem;
+}
+.tesla{
+  margin-left: 40rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.date{
+  color: cadetblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .alldetails{
+    display: flex;
+  }
+  .data{
+    width: 30rem;
+  }
+  .previous
+  {
+    display: flex;
+    margin-left: 20rem;
+    gap: 2rem;
+}
+@keyframes dot-flashing {
+  0% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.loading-dots {
+  display: inline-block;
+  font-size: 50px;
+  color: #ff4a09;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 15rem;
+}
+
+.loading-dots span {
+  display: inline-block;
+  animation: dot-flashing 1s infinite linear;
+}
+
+.loading-dots span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loading-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
